@@ -1,0 +1,12 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using POS.Domain.Entities;
+global using POS.Infraestructure.Commons.Bases.Request;
+global using POS.Infraestructure.Commons.Bases.Response;
+global using POS.Infraestructure.Helpers;
+global using POS.Infraestructure.Persistences.Context;
+global using POS.Infraestructure.Persistences.Interfaces;
+global using POS.Infraestructure.Persistences.Repositories;
+global using System.Linq.Dynamic.Core;
